@@ -1,27 +1,18 @@
-import java.util.Scanner;
-
 public class Stringtst {
 
 	public static void main(String[] args) {
-		int num;
-		String out = "";
-		System.out.println("enter number: ");
-		Scanner numscan = new Scanner(System.in);
-		num = numscan.nextInt();
-		numscan.close();
-
-		if (num == 1) {
-			out = ("This is a test");
-		} else if (num == 2) {
-			out = ("This is a test 2");
-		} else if (num == 3) {
-			out = ("This is a test 3");
-		} else if (num >= 3) {
-			out = ("end");
-		}
-
-		System.out.println(out);
-
+		long[] valuesA;
+		valuesA = new long[2];
+		int[] valuesB;
+		valuesB = new int[2];
+		valuesA[0] = 2;
+		valuesB[1] = 90;
+		valuesB[0] = (int) valuesA[0];
+		valuesA[1] = valuesB[1];
+		// Calculation must evaluate to 90/(2.0*2.0)
+		double mi = valuesB[1] / (valuesA[0] * valuesA[0]);
+		String output = "Mass index: " + mi;
+		System.out.println(output);
 	}
 
 }
