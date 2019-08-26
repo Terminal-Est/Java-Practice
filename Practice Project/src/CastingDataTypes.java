@@ -26,7 +26,7 @@ public class CastingDataTypes {
 		double z = 72.6;
 		System.out.println("Uncast Data ---\nbyte: " + a + ", short: " + b + ", int: " + c + ", long: " + x
 				+ ", float: " + y + ", double: " + z);
-		concat = concat + "Data cast to byte ---\n";
+		concat = concat + "\nData cast to byte ---\n";
 		a = (byte) z;
 		concat = concat + "double to byte: " + a + ", ";
 		a = (byte) y;
@@ -41,7 +41,7 @@ public class CastingDataTypes {
 		concat = "";
 		z = y;
 		System.out.println(
-				"You can copy data from smaller primitive into a larger one, the following is the float copied into the double\n"
+				"\nYou can copy data from smaller primitive into a larger one, the following is the float copied into the double\n"
 						+ z);
 	}
 
