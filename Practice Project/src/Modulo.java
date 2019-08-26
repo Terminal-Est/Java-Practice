@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Q1 {
+public class Modulo {
 	public static void main(String[] args) {
 		Scanner test = new Scanner(System.in);
 		short a = 0;

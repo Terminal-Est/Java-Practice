@@ -1,5 +1,5 @@
 
-public class practiceExams {
+public class ModLoop {
 
 	public static void main(String[] args) {
 

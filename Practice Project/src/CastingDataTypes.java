@@ -1,4 +1,4 @@
-public class Stringtst {
+public class CastingDataTypes {
 
 	public static void main(String[] args) {
 		long[] valuesA;
