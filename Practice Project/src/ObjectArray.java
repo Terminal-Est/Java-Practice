@@ -1,9 +1,13 @@
 public class ObjectArray {
+	// the line below is the new object array.
 	private ObjectArray2[] test;
 	private int fizz;
 	private int buzz;
 	private int foo;
 
+	
+	// each object instantiation is stored in the array
+	// the object array is created with a value of 10
 	public ObjectArray(int x, int y, int z) {
 		this.test = new ObjectArray2[10];
 		this.test[0] = new ObjectArray2(10, 10, 10);
@@ -18,6 +22,7 @@ public class ObjectArray {
 		return;
 	}
 
+	// recover the stored object instances
 	public void printArray(int a, int b, int c) {
 		int i = 0;
 		String bar = "";
